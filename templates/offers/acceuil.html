@@ -1,0 +1,43 @@
+{% extends 'main.html' %}
+{% block content %}
+
+<br>
+<div class="row">
+	<div class="col-md-5">
+		<h5>Users:</h5>
+		<hr>
+		<div class="card card-body">
+			<a class="btn btn-primary  btn-sm btn-block" href="">Créer Un utilisateur</a>
+			<table class="table table-sm">
+				<tr>
+					<th></th>
+					<th>Users</th>
+					<th>Offres</th>
+				</tr>
+
+			</table>
+		</div>
+	</div>
+
+	<div class="col-md-7">
+		<h5>Les 5 Dernières offres</h5>
+		<hr>
+		<div class="card card-body">
+			<a class="btn btn-primary  btn-sm btn-block" href="">Ajouter un deal</a>
+			<table class="table table-sm">
+				<tr>
+					<th>Produit</th>
+					<th>Date de la commande</th>
+					<th>Status</th>
+					<th>Mise à Jour</th>
+					<th>Supprimer</th>
+				</tr>
+
+			</table>
+		</div>
+	</div>
+
+</div>
+
+
+{% endblock content%}
